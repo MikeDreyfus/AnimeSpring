@@ -1,0 +1,460 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+
+body {
+    line-height: 1;
+    background: url(../img/3004107-3840x2160-flower-girl-kaori-miyazono-silhouette-orange-color.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+.wrapper {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 80px;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a, ul, li{
+    text-decoration:none;
+}
+
+a h1, a h2, a h3, a h4 {
+    text-decoration: underline;
+}
+
+
+footer header {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 , p {
+    color: #ffffff;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+ul {
+    display: inline-flex; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+}
+
+li {
+    padding-right: 30px;
+    align-items: center;
+}
+
+
+/* Content-block*/
+
+.production {
+}
+
+.collage {
+    
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+    .collage img {
+        height: 400px;
+        width: auto;
+        box-shadow: 0px 0px 30px 1px #a04101cc;
+        opacity: 1;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        transition: opacity 124ms linear, transform 124ms linear; 
+        display: block;
+        border-radius: 10px;
+    }
+
+    .collage img:hover { 
+        transform: scale(1.05); 
+    }
+
+    #coll-one {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #coll-one img {
+        z-index: 1;
+    }
+
+    #coll-two {
+        margin-top: -220px;
+        margin-left: 200px;
+    }
+
+    #coll-two img {
+        z-index: 2;
+    }
+
+    #coll-three {
+        margin-top: -300px;
+        margin-left: 40px;
+    }
+
+    #coll-three img {
+        height: 190px;
+        width: auto;
+        z-index: 3;
+    }
+
+
+.content-block {
+    display: block;
+    border: 0;
+    font-size: 100%;
+    justify-content: center;
+    left: 0;
+    top: 0;
+}
+
+.bl-reverse {
+    display: flex;
+    border: 0;
+    font-size: 100%;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+}
+
+    a img{
+        opacity: 1;
+        transition: opacity 124ms linear, transform 124ms linear; 
+        width: 100%;
+        height: auto;
+        display: block; 
+    }
+
+    a:hover img{
+        opacity: 0.9; 
+        transform: scale(1.05); 
+    }
+
+    
+    
+    
+
+
+    #quality {
+        height: 100px;
+        width: auto;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+        background: linear-gradient(rgb(235, 107, 88, 1),#ffbe92) ;
+        box-shadow: 0px 0px 10px 0px;
+        border-radius: 10px;
+        z-index: 55;
+    }
+
+        #quality img {
+            height: 40px;
+            width: auto;
+            padding: 10px;
+        }
+
+/*Content-block end*/
+
+
+/* Transition */
+
+.transition {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: -108px;
+    
+}
+
+    .transition img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+/* Transition end */
+
+
+
+
+
+.text-box {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    text-align: left;
+    word-break: break-all;
+
+}
+
+    .text-box h1 {
+        font-size: 55px;
+        color: #ffbe92;
+    }
+
+    .text-box p {
+        font-size: 20px;
+    }
+
+    .text-box h2 {
+        font-size: 34px;
+        color: #ffbe92;
+        transition: 190ms;
+    }
+
+    .text-box h3 {
+        font-size: 22px;
+        color: #ffbe92;
+        transition: 190ms;
+    }
+
+    .text-box a h2:hover,h3:hover {
+        color: #ff6600;
+        
+    }
+
+    #intro {
+        padding-top: 100px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+
+
+.inner {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+
+
+/* Header */
+
+    header {
+        background-color: rgba(53, 56, 73, 1);
+        height: 3.5em;
+        left: 0;
+        top: 0;
+        line-height: 3.5em;
+        padding: 0 1.25em;
+        width: 100%;
+        z-index: 1000;
+        justify-content: center;
+        position: fixed;
+    }
+
+        #header h1 {
+            border-bottom: 0;
+            font-size:  1em;
+            opacity: 1;
+            visibility: visible;
+        }
+
+            #header h1 a {
+                border: 0;
+                color: white;
+            }
+
+        #header nav {
+            font-family: Raleway, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: 700;
+            height: 2em;
+            letter-spacing: 0.1em;
+            line-height: 3em;
+            position: absolute;
+            right: 1.7em;
+            text-transform: uppercase;
+            top: -10px
+        }
+
+            #header nav div {
+                font-family: Raleway, Helvetica, sans-serif;
+                font-size: 1em;
+                font-weight: 700;
+                height: 2em;
+                letter-spacing: 0.1em;
+                line-height: 3em;
+            }
+            
+                #header nav div img {
+                    height: 30px;
+                    width: 30px;
+                    margin-right: 30px;
+
+                }
+
+/* Header end */
+
+
+
+/* Section */
+
+    section {
+        background-color: rgba(53, 56, 73, 1); 
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-top: 0;
+        
+    }
+
+
+    #one {
+        background: linear-gradient(rgb(235, 107, 88, 0.8), rgba(0, 0, 0, 0.8)), 
+		url(../img/3004107-3840x2160-flower-girl-kaori-miyazono-silhouette-orange-color.png);;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 760px;
+        
+    }
+
+   
+
+
+
+    #two {
+        background-color: rgba(53, 56, 73, 1);
+        height: 1000px;
+        width: 100%;
+    }
+
+        #two img {
+            height: 200px;
+            width: 300px; 
+            border-radius: 40px;
+        }
+
+
+    #three {
+        background-color: rgba(29, 32, 46, 1);
+        height: 1050px;
+    }
+
+        #three img {
+            height: 400px;
+            width: 380px;
+            border-radius: 10px;
+            box-shadow: 0px 1px 50px 2px black;
+            margin: 10px;
+        }
+
+    #four {
+        background-color: rgb(16, 17, 24);
+        height: 800px;
+    }
+
+        #four img {
+
+        }
+
+
+
+
+
+
+
+    
+
+
+
+
+/* Section end */
+
+
+
+/* Footer */
+
+footer {
+    background-color: rgba(53, 56, 73, 1);
+        height: 355px;
+        width: 100%;
+        left: 0;
+        top: 0;
+
+        z-index: 100;
+        justify-content: center;
+    }
+
+    .inner {
+        height: 5em;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        display: inline-block;
+        z-index: 100;
+    }
+
+        .social {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 40px;
+        }
+
+            #social a {
+                
+                border: 0;
+                color: white;
+            }
+
+            #social img {
+                border: 0;
+                height: 40px;
+                width: auto;
+                padding-right: 15px;
+            }
+/* Footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
